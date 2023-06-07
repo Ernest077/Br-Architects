@@ -1,0 +1,40 @@
+.ProjectSection {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    .ProjectContext {
+        border-color: #f1f1f1;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #ccc;
+        margin: 10px 0;
+        font-size: 24px !important;
+    }
+}
+
+.Projects {
+    padding: 0 8px;
+    display: flex;
+
+    .Child1,
+    .Child2,
+    .Child3,
+    .Child4 {
+        margin-right: 8px;
+
+        .ChildContent {
+            position: absolute;
+            display: grid;
+            background-color: #000;
+            color: #f1f1f1;
+            text-align: center;
+            width: 140px;
+            height: 35px;
+            align-items: center;
+        }
+
+        .ChildImg {
+            width: 100%;
+        }
+    }
+}

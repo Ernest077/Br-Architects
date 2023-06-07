@@ -1,0 +1,35 @@
+.ContactSection {
+
+    padding-bottom: 30px !important;
+
+    p {
+        font-size: 19px;
+    }
+
+    .ContactInput {
+        border: 1px solid #ccc;
+        padding: 10px;
+        display: block;
+        padding: 15px;
+        height: 30px;
+        margin-top: 15px;
+        width: 97%;
+        font-size: 20px;
+    }
+
+    .ContactButton {
+        margin-top: 16px;
+        height: 40px;
+        width: 165px;
+        font-size: 15px;
+        margin-bottom: 16px;
+        background-color: #000;
+        color: #f1f1f1;
+    }
+
+    .ContactButton:hover {
+        color: #000;
+        background-color: #ccc;
+        border: 0px;
+    }
+}
