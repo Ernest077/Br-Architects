@@ -49,4 +49,49 @@
         font-size: 15px;
         line-height: 1.5;
     }
+
+    .NavbarMenu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .NavChild {
+        display: none;
+    }
+
+    .NavbarMenu {
+        display: flex !important;
+        margin-top: 10px;
+        height: 40px;
+        text-align: center;
+        justify-content: end;
+    }
+
+    .NavItem {
+        font-size: 20px;
+        padding: 8px 16px;
+        float: left;
+        width: auto;
+        border: none;
+        display: block;
+        outline: 0;
+        letter-spacing: 4px;
+        border: none;
+        display: inline-block;
+        padding: 14px 16px;
+        vertical-align: middle;
+        overflow: hidden;
+        text-decoration: none;
+        color: inherit;
+        background-color: inherit;
+        text-align: center;
+        cursor: pointer;
+        white-space: nowrap;
+        box-sizing: inherit;
+    }
+
+    .NavItem:hover {
+        background-color: #ccc;
+    }
 }

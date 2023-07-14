@@ -2,6 +2,14 @@
     padding-top: 32px;
     padding-bottom: 32px;
 
+    .AboutContext {
+        border-color: #f1f1f1;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #ccc;
+        margin: 10px 0;
+        font-size: 24px !important;
+    }
     p {
         font-size: 19px;
     }
@@ -48,6 +56,35 @@
         .AboutButton:hover {
             color: #000;
             background-color: #ccc;
+        }
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .AboutPerson {
+        display: inherit;
+        .AboutPersonChild {
+            margin-bottom: 16px;
+            padding: 0 8px;
+            width: 97%;
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .AboutSection {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    
+        .AboutContext {
+            border-color: #f1f1f1;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #ccc;
+            margin: 10px 0;
+            font-size: 24px !important;
+        }
+        p {
+            font-size: 15px;
         }
     }
 }

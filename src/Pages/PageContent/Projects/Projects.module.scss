@@ -38,3 +38,10 @@
         }
     }
 }
+
+@media only screen and (max-width: 650px){
+    .Projects {
+        padding: 0 8px;
+        display: inherit;
+    }    
+}

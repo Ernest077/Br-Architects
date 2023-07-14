@@ -3,7 +3,7 @@ import cls from './Layout.module.scss'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import { Navbar } from '../Navbar/Navbar'
-import PageContent from '../PageContent/PageContent'
+import PageContent from '../../Pages/PageContent/PageContent'
 
 interface LayoutProps {
     children: ReactNode
@@ -14,10 +14,9 @@ export const Layout: FC<LayoutProps> = ({ children }) => {
     return (
         <>
             <div className={cls.child}>
-            <Navbar />
-            <Header />
-            <PageContent/>
-            <Footer />
+                <Header />
+                <PageContent />
+                <Footer />
             </div>
         </>
     )

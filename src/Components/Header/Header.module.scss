@@ -41,3 +41,9 @@
         font-size: 45px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .ImgContent {
+        display: none;
+    }
+}

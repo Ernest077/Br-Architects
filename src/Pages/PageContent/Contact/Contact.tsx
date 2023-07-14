@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <>
             <div className={cls.ContactSection}>
-                <p className={cls.ProjectContext}>Contact</p>
+                <p className={cls.ContactContext}>Contact</p>
                 <p>Lets get in touch and talk about your next project.</p>
                 <form>
                     <input className={cls.ContactInput} type="text" placeholder="Name" />
